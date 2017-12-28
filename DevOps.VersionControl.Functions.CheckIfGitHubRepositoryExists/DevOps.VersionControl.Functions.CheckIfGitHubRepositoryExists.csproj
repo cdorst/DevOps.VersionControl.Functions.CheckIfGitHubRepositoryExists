@@ -10,11 +10,12 @@
     <Description>Helper for checking if a GitHub repository exists</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>CDorst.DevOps.VersionControl.Functions.CheckIfGitHubRepositoryExists</PackageId>
-    <Version>1.0.0</Version>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="CDorst.Common.Functions.GetHttpStatusCode" Version="1.0.0" />
+    <PackageReference Include="CDorst.DevOps.VersionControl.Structures.GitHub" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
